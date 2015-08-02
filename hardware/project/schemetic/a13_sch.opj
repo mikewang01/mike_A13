@@ -11,6 +11,84 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (XTAL4P14
+      (FullPartName "XTAL4P14.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\803_CRYSTAL.OLB")
+      (DeviceIndex "0"))
+    (DS1307
+      (FullPartName "DS1307.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\801_IC.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\804_RESISTOR.OLB")
+      (DeviceIndex "0"))
+    (MOS_WNM4153-3/TR
+      (FullPartName "MOS_WNM4153-3/TR.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\802_SEMICONDUCTOR.OLB")
+      (DeviceIndex "0"))
+    (BUF_GATE_8CH_244
+      (FullPartName "BUF_GATE_8CH_244.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\801_IC.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\805_CAPACITOR.OLB")
+      (DeviceIndex "0"))
+    (XTAL4P13
+      (FullPartName "XTAL4P13.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\803_CRYSTAL.OLB")
+      (DeviceIndex "0"))
+    (SWD_DAN222
+      (FullPartName "SWD_DAN222.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\802_SEMICONDUCTOR.OLB")
+      (DeviceIndex "0"))
+    (ZENER_1SMB5927BT3G
+      (FullPartName "ZENER_1SMB5927BT3G.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\802_SEMICONDUCTOR.OLB")
+      (DeviceIndex "0"))
+    (SY7208
+      (FullPartName "SY7208.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\801_IC.OLB")
+      (DeviceIndex "0"))
+    (SY6280
+      (FullPartName "SY6280.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\801_IC.OLB")
+      (DeviceIndex "0"))
+    (GL850G
+      (FullPartName "GL850G.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\801_IC.OLB")
+      (DeviceIndex "0"))
+    (USB2514
+      (FullPartName "USB2514.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\801_IC.OLB")
+      (DeviceIndex "0"))
+    (PJ-234
+      (FullPartName "PJ-234.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\808_CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CHIP_FB
+      (FullPartName "CHIP_FB.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\807_FILTER.OLB")
+      (DeviceIndex "0"))
+    (ARRAY
+      (FullPartName "ARRAY.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\804_RESISTOR.OLB")
+      (DeviceIndex "0"))
+    (SWD_1N4148WS
+      (FullPartName "SWD_1N4148WS.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\802_SEMICONDUCTOR.OLB")
+      (DeviceIndex "0"))
+    (MP2105
+      (FullPartName "MP2105.Normal")
+      (LibraryName "Z:\01_SCH_LIBRARY\801_IC.OLB")
+      (DeviceIndex "0"))
     (FLASH_TSOP48_6
       (FullPartName "FLASH_TSOP48_6.Normal")
       (LibraryName "Z:\01_SCH_LIBRARY\801_IC.OLB")
@@ -23,17 +101,6 @@
       (FullPartName "SDRAM_FBGA78.Normal")
       (LibraryName "Z:\01_SCH_LIBRARY\801_IC.OLB")
       (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName "Z:\01_SCH_LIBRARY\804_RESISTOR.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName "Z:\01_SCH_LIBRARY\805_CAPACITOR.OLB")
-      (DeviceIndex "0"))
     (L
       (FullPartName "L.Normal")
       (LibraryName "Z:\01_SCH_LIBRARY\806_INDUCTOR.OLB")
@@ -45,33 +112,39 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\a13_sch.dsn")
-      (Path "Design Resources" ".\a13_sch.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\a13_sch.dsn" "Design Cache")
-      (Select "Design Resources" ".\a13_sch.dsn" "SCHEMATIC1"
-         "P07_Reset_LED_CONFIG"))
+      (Path "Design Resources"
+         "e:\free project\suxin a13\hardware\project\schemetic\a13_sch.dsn")
+      (Path "Design Resources"
+         "e:\free project\suxin a13\hardware\project\schemetic\a13_sch.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "e:\free project\suxin a13\hardware\project\schemetic\a13_sch.dsn"
+         "Design Cache")
+      (Select "Design Resources"
+         "e:\free project\suxin a13\hardware\project\schemetic\a13_sch.dsn"
+         "SCHEMATIC1" "P09_FLASH"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 317 0 456"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 317 0 456"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 1136 0 315")
-        (Scroll "952 864")
-        (Zoom "148")
+        (Placement "44 2 3 -1 -1 -8 -30 75 1126 75 323")
+        (Scroll "-267 63")
+        (Zoom "50")
         (Occurrence "/"))
       (Path "E:\FREE PROJECT\SUXIN A13\HARDWARE\PROJECT\SCHEMETIC\A13_SCH.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "P00_Cover Page"))
+      (Page "P09_FLASH"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1215 75 394")
-        (Scroll "1238 1686")
-        (Zoom "264")
+        (Placement "44 0 1 -1 -1 -8 -30 100 1151 100 348")
+        (Scroll "2079 1053")
+        (Zoom "216")
         (Occurrence "/"))
       (Path "E:\FREE PROJECT\SUXIN A13\HARDWARE\PROJECT\SCHEMETIC\A13_SCH.DSN")
       (Schematic "SCHEMATIC1")
@@ -79,19 +152,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1265 125 444")
-        (Scroll "309 692")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path "E:\FREE PROJECT\SUXIN A13\HARDWARE\PROJECT\SCHEMETIC\A13_SCH.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "P12_COMM&CAN&RS485&USB&CAM&I2S"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 940 75 375")
-        (Scroll "31 302")
-        (Zoom "66")
+        (Placement "44 0 1 -1 -1 -8 -30 0 1051 0 248")
+        (Scroll "-55 258")
+        (Zoom "54")
         (Occurrence "/"))
       (Path "E:\FREE PROJECT\SUXIN A13\HARDWARE\PROJECT\SCHEMETIC\A13_SCH.DSN")
       (Schematic "SCHEMATIC1")
@@ -99,31 +162,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 965 100 400")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -30 25 1076 25 273")
+        (Scroll "560 558")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "E:\FREE PROJECT\SUXIN A13\HARDWARE\PROJECT\SCHEMETIC\A13_SCH.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "P01_BlockDiagram"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 890 25 325")
-        (Scroll "-136 5")
-        (Zoom "33")
-        (Occurrence "/"))
-      (Path "E:\FREE PROJECT\SUXIN A13\HARDWARE\PROJECT\SCHEMETIC\A13_SCH.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "P05_FLASH_GPIO_PIN"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 915 50 350")
-        (Scroll "-152 0")
-        (Zoom "31")
-        (Occurrence "/"))
-      (Path "E:\FREE PROJECT\SUXIN A13\HARDWARE\PROJECT\SCHEMETIC\A13_SCH.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "P06_SDRAM_PIN")))
+      (Page "P08_CPU_JTAG+DEBUG")))
   (MPSSessionName "mike"))
